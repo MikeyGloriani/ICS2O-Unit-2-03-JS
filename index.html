@@ -35,32 +35,42 @@
         <form action="#">
           <p>Street name</p>
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" id="street-name">
-            <label class="mdl-textfield__label" for="first-name">Set street name here</label>
+            <input class="mdl-textfield__input" type="text" id="street-name" />
+            <label class="mdl-textfield__label" for="first-name"
+              >Set street name here</label
+            >
           </div>
         </form>
         <!-- Numeric Textfield -->
         <form action="#">
           <p>Street Number</p>
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="street-number">
-            <label class="mdl-textfield__label" for="street-number">Street number here</label>
+            <input
+              class="mdl-textfield__input"
+              type="text"
+              pattern="-?[0-9]*(\.[0-9]+)?"
+              id="street-number"
+            />
+            <label class="mdl-textfield__label" for="street-number"
+              >Street number here</label
+            >
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
-         <!-- Raised button with ripple -->
-         <button
-         class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-         onclick="enterClicked()">
-         Enter
-       </button>
-       <br>
-       <br>
-       <br>
-       <div id="user-info">
-         <div id="address"></div>
-       </div>
-     </main>
-   </div>
- </body>
+        <!-- Raised button with ripple -->
+        <button
+          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+          onclick="enterClicked()"
+        >
+          Enter
+        </button>
+        <br />
+        <br />
+        <br />
+        <div id="user-info">
+          <div id="address"></div>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
